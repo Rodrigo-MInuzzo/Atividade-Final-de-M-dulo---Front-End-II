@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty API</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <header>
+    <form id="form" role="search">
+      <h1 id="titulo">API Rick and Morty</h1>
+      <input id="form-control" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button id="button-form" class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </header>
+
+  <div id="resposta"></div>
+  <div id="button">
+    <button id="buttonAnterior" onclick="anterior()">Anterior</button>
+    <button id="buttonProximo" onclick="proximo()">Próximo</button>
+  </div>
+
+  <footer>
+    <img id="imagem-footer" src="./img/rick-and-morty.png" alt="" srcset="">
+    <h3>Feito por Rodrigo</h3>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+#titulo{
+  color: black;
+  text-align: center;
+}
+
+#form {
+  
+  background-color: green;
+  text-align: center;
+  padding: 50px;
+}
+
+.user-card {
+ padding-left: 55px;
+  margin-top: 20px;
+  border: solid;
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+
+}
+.user-card {
+  background-color: #e0e0e0;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  background-color: green; 
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+ 
+}
+
+#imagem-footer{
+  width: 25%;
+}
+
+footer{
+  background-color: green;
+   align-items: center;
+   text-align: center;
+   padding: 2px;
+}
+
+#button {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#buttonAnterior {
+  width: 100px;
+  height: 30px;
+  background-color: green;
+}
+
+#buttonProximo {
+  width: 100px;
+  height: 30px;
+  background-color: green;
+}
+
+input {
+  width: 80%;
+  height: 35px;
+}
+
+#button-form{
+  height: 35px;
+}
+
